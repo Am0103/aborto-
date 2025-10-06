@@ -1,0 +1,1082 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Presentación académica sobre aborto: análisis integral de aspectos médicos, legales, sociales y éticos basado en evidencia científica">
+    <meta name="keywords" content="aborto, salud reproductiva, derechos humanos, presentación académica, OMS, educación sexual">
+    <meta name="author" content="Yeidis Marcela Yotagri Legarda">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://github.com/Am0103/aborto-">
+    <meta property="og:title" content="Aborto: Análisis Integral - Presentación Académica">
+    <meta property="og:description" content="Análisis comprehensivo sobre aspectos médicos, legales, sociales y éticos del aborto, basado en evidencia científica">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://github.com/Am0103/aborto-">
+    <meta property="twitter:title" content="Aborto: Análisis Integral - Presentación Académica">
+    <meta property="twitter:description" content="Análisis comprehensivo sobre aspectos médicos, legales, sociales y éticos del aborto">
+    <meta property="twitter:image" content="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80">
+    
+    <title>Aborto: Análisis Integral - Yeidis Marcela Yotagri Legarda</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header Styles */
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 80px 0;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80') center/cover;
+            opacity: 0.2;
+            z-index: -1;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto;
+            opacity: 0.9;
+        }
+
+        .badge {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            margin-bottom: 20px;
+        }
+
+        /* Navigation Styles */
+        .nav-index {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            margin: 40px 0;
+            padding: 30px;
+        }
+
+        .nav-index h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .nav-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+        }
+
+        .nav-item {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 10px;
+            text-decoration: none;
+            color: #333;
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+
+        .nav-item:hover {
+            background: #e9ecef;
+            transform: translateY(-2px);
+        }
+
+        /* Section Styles */
+        .section {
+            background: white;
+            margin: 40px 0;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+        }
+
+        .section h2 {
+            color: #2c3e50;
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 15px;
+        }
+
+        .section-image {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        /* Card Styles */
+        .card {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            margin: 20px 0;
+            border-left: 5px solid #667eea;
+        }
+
+        .card-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .card-icon {
+            width: 50px;
+            height: 50px;
+            background: #667eea;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.5rem;
+        }
+
+        .card-title {
+            font-size: 1.5rem;
+            color: #2c3e50;
+            font-weight: 600;
+        }
+
+        .grid {
+            display: grid;
+            gap: 30px;
+        }
+
+        .grid-2 {
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        }
+
+        .grid-3 {
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        }
+
+        .grid-4 {
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        }
+
+        /* Stats Styles */
+        .stat-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-align: center;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .stat-number {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .stat-text {
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+
+        /* Myth vs Reality Styles */
+        .myth-reality {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin: 20px 0;
+        }
+
+        .myth {
+            background: #fee;
+            border-left: 5px solid #e74c3c;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .reality {
+            background: #efe;
+            border-left: 5px solid #27ae60;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .myth h4 {
+            color: #e74c3c;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .reality h4 {
+            color: #27ae60;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        /* Legal Framework Styles */
+        .legal-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .legal-card {
+            padding: 20px;
+            border-radius: 10px;
+            border: 2px solid;
+        }
+
+        .legal-legal {
+            border-color: #27ae60;
+            background: #f0fff4;
+        }
+
+        .legal-conditional {
+            border-color: #3498db;
+            background: #f0f8ff;
+        }
+
+        .legal-restricted {
+            border-color: #f39c12;
+            background: #fff8f0;
+        }
+
+        .legal-prohibited {
+            border-color: #e74c3c;
+            background: #fff0f0;
+        }
+
+        /* Footer Styles */
+        .footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 40px 0;
+            margin-top: 60px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            .hero p {
+                font-size: 1rem;
+            }
+            
+            .myth-reality {
+                grid-template-columns: 1fr;
+            }
+            
+            .section {
+                padding: 20px;
+            }
+            
+            .nav-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .scroll-target {
+            scroll-margin-top: 20px;
+        }
+
+        /* Highlight boxes */
+        .highlight {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+
+        .important-note {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        .important-note h4 {
+            color: #856404;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <div class="badge">Presentación Académica</div>
+            <h1>Aborto: Análisis Integral</h1>
+            <p>Un análisis académico comprehensivo sobre los aspectos médicos, legales, sociales, éticos y de derechos humanos del aborto, basado en evidencia científica y estándares internacionales.</p>
+            <div style="margin-top: 30px; font-size: 1.1rem; opacity: 0.9;">
+                <strong>Presentado por:</strong><br>
+                Yeidis Marcela Yotagri Legarda
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Índice de Contenidos -->
+        <section class="nav-index">
+            <h2>📚 Índice de Contenidos</h2>
+            <div class="nav-grid">
+                <a href="#definicion" class="nav-item">1. Definición y Conceptos</a>
+                <a href="#historia" class="nav-item">2. Historia y Contexto Global</a>
+                <a href="#tipos" class="nav-item">3. Tipos de Aborto</a>
+                <a href="#legal" class="nav-item">4. Marco Legal Internacional</a>
+                <a href="#salud" class="nav-item">5. Aspectos de Salud</a>
+                <a href="#metodos" class="nav-item">6. Métodos Médicos</a>
+                <a href="#derechos" class="nav-item">7. Derechos Reproductivos</a>
+                <a href="#prevencion" class="nav-item">8. Prevención y Educación</a>
+                <a href="#impacto" class="nav-item">9. Impacto Social y Económico</a>
+                <a href="#mitos" class="nav-item">10. Mitos vs. Realidad</a>
+                <a href="#etica" class="nav-item">11. Perspectivas Éticas</a>
+                <a href="#datos" class="nav-item">12. Datos Estadísticos</a>
+            </div>
+        </section>
+
+        <!-- Definición -->
+        <section id="definicion" class="section scroll-target">
+            <h2>1. Definición y Conceptos Fundamentales</h2>
+            <p style="font-size: 1.1rem; margin-bottom: 20px;">
+                El <strong>aborto</strong> se define como la interrupción del embarazo antes de que el feto alcance la viabilidad (capacidad de sobrevivir fuera del útero), generalmente establecida alrededor de las 22-24 semanas de gestación.
+            </p>
+            <div class="highlight">
+                <p>Desde la perspectiva médica de la OMS, el aborto es considerado un componente esencial de la atención integral de salud reproductiva y tiene implicaciones significativas en la salud pública, los derechos humanos y la justicia social.</p>
+            </div>
+        </section>
+
+        <!-- Historia y Contexto Global -->
+        <section id="historia" class="section scroll-target">
+            <h2>2. Historia y Contexto Global</h2>
+            <img src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Historia y contexto global" class="section-image">
+            
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-icon">🌍</div>
+                    <h3 class="card-title">Evolución Histórica</h3>
+                </div>
+                <p>El aborto ha existido a lo largo de la historia humana en todas las culturas. Las actitudes hacia el mismo han variado según contextos históricos, religiosos y culturales.</p>
+                
+                <div style="margin-top: 20px;">
+                    <h4>Hitos Importantes:</h4>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li><strong>Antigüedad:</strong> Prácticas documentadas en textos egipcios, griegos y romanos. El juramento hipocrático (400 a.C.) hacía referencia al tema.</li>
+                        <li><strong>Siglo XX:</strong> La URSS fue el primer país en legalizar el aborto (1920). A partir de los años 60-70, muchos países comenzaron procesos de legalización.</li>
+                        <li><strong>Actualidad:</strong> Aproximadamente el 61% de la población mundial vive en países donde el aborto está legalmente permitido bajo diversas circunstancias.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tipos de Aborto -->
+        <section id="tipos" class="section scroll-target">
+            <h2>3. Tipos de Aborto</h2>
+            
+            <div class="grid grid-2">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-icon">💙</div>
+                        <h3 class="card-title">Aborto Espontáneo</h3>
+                    </div>
+                    <p>Pérdida natural del embarazo sin intervención externa, comúnmente en las primeras 20 semanas.</p>
+                    
+                    <div class="highlight">
+                        <h4>Causas Principales:</h4>
+                        <ul>
+                            <li>Anomalías cromosómicas del embrión (60-70%)</li>
+                            <li>Problemas hormonales</li>
+                            <li>Infecciones maternas</li>
+                            <li>Problemas uterinos o cervicales</li>
+                            <li>Enfermedades crónicas no controladas</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="important-note">
+                        <h4>Datos Importantes:</h4>
+                        <p>Ocurre en 10-20% de embarazos conocidos. La mayoría sucede en el primer trimestre. No es culpa de la persona embarazada y no está relacionado con actividades cotidianas.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-icon">🛡️</div>
+                        <h3 class="card-title">Aborto Inducido</h3>
+                    </div>
+                    <p>Interrupción intencional del embarazo mediante procedimientos médicos o quirúrgicos.</p>
+                    
+                    <div class="highlight">
+                        <h4>Clasificación:</h4>
+                        <ul>
+                            <li><strong>Terapéutico:</strong> Por razones médicas (salud de la madre)</li>
+                            <li><strong>Electivo:</strong> Por decisión personal</li>
+                            <li><strong>Selectivo:</strong> En embarazos múltiples</li>
+                            <li><strong>Por indicación fetal:</strong> Anomalías graves detectadas</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="important-note">
+                        <h4>Contexto:</h4>
+                        <p>La seguridad del procedimiento depende crucialmente del acceso a servicios de salud de calidad, personal capacitado y condiciones sanitarias adecuadas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Marco Legal -->
+        <section id="legal" class="section scroll-target">
+            <h2>4. Marco Legal Internacional</h2>
+            <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Marco legal internacional" class="section-image">
+            
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-icon">⚖️</div>
+                    <h3 class="card-title">Modelos Legislativos Globales</h3>
+                </div>
+                
+                <div class="legal-grid">
+                    <div class="legal-card legal-legal">
+                        <h4>✅ Legal sin restricciones</h4>
+                        <p>Aborto disponible sin necesidad de justificación específica dentro de plazos establecidos.</p>
+                        <ul style="margin-top: 10px;">
+                            <li>Países: Canadá, China, Estados Unidos (variable), gran parte de Europa</li>
+                            <li>Generalmente hasta 12-24 semanas</li>
+                            <li>~39% de la población mundial</li>
+                        </ul>
+                    </div>
+
+                    <div class="legal-card legal-conditional">
+                        <h4>🛡️ Legal bajo causales específicas</h4>
+                        <p>Permitido bajo circunstancias específicas definidas por ley.</p>
+                        <ul style="margin-top: 10px;">
+                            <li>Riesgo para vida/salud materna</li>
+                            <li>Violación o incesto</li>
+                            <li>Malformaciones fetales graves</li>
+                            <li>Razones socioeconómicas (en algunos países)</li>
+                        </ul>
+                    </div>
+
+                    <div class="legal-card legal-restricted">
+                        <h4>⚠️ Restringido</h4>
+                        <p>Solo permitido para salvar la vida de la madre.</p>
+                        <ul style="margin-top: 10px;">
+                            <li>Altamente restrictivo</li>
+                            <li>Genera abortos inseguros</li>
+                            <li>Mayor mortalidad materna</li>
+                        </ul>
+                    </div>
+
+                    <div class="legal-card legal-prohibited">
+                        <h4>❌ Prohibido</h4>
+                        <p>Completamente ilegal sin excepciones.</p>
+                        <ul style="margin-top: 10px;">
+                            <li>Minoritario globalmente</li>
+                            <li>Causa crisis de salud pública</li>
+                            <li>Viola derechos humanos (según ONU)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="important-note">
+                    <h4>🌍 Instrumentos Internacionales Relevantes</h4>
+                    <ul>
+                        <li>Convención sobre la Eliminación de todas las Formas de Discriminación contra la Mujer (CEDAW)</li>
+                        <li>Declaración Universal de Derechos Humanos</li>
+                        <li>Programa de Acción de la Conferencia Internacional sobre Población y Desarrollo (Cairo, 1994)</li>
+                        <li>Objetivos de Desarrollo Sostenible (ODS) - Meta 3.7 sobre salud sexual y reproductiva</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Aspectos de Salud -->
+        <section id="salud" class="section scroll-target">
+            <h2>5. Aspectos de Salud</h2>
+            <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Aspectos de salud" class="section-image">
+            
+            <div class="grid grid-3">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-icon">⚠️</div>
+                        <h3 class="card-title">Seguridad Médica</h3>
+                    </div>
+                    <p><strong>Aborto seguro:</strong> Realizado por personal capacitado, con métodos recomendados por la OMS, en condiciones sanitarias adecuadas.</p>
+                    
+                    <div style="background: #d4edda; padding: 15px; border-radius: 5px; margin: 15px 0;">
+                        <p style="color: #155724; font-weight: bold;">Tasa de complicaciones: &lt;1%</p>
+                        <p style="color: #155724; font-size: 0.9rem;">En países con acceso legal y servicios de calidad</p>
+                    </div>
+                    
+                    <div style="background: #f8d7da; padding: 15px; border-radius: 5px;">
+                        <p style="color: #721c24; font-weight: bold;">Aborto inseguro: 7-8% de muertes maternas</p>
+                        <p style="color: #721c24; font-size: 0.9rem;">Principalmente en países con leyes restrictivas</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-icon">🧠</div>
+                        <h3 class="card-title">Salud Mental</h3>
+                    </div>
+                    <p>La respuesta emocional es individual y variable. Estudios científicos muestran:</p>
+                    <ul style="margin: 15px 0; margin-left: 20px;">
+                        <li>La mayoría experimenta alivio (80-95%)</li>
+                        <li>Emociones mixtas son normales</li>
+                        <li>No causa trastornos mentales a largo plazo</li>
+                        <li>El estigma social puede afectar más que el procedimiento</li>
+                    </ul>
+                    <p style="font-style: italic; font-size: 0.9rem; color: #666;">Fuente: APA Task Force on Mental Health and Abortion (2008)</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-icon">🛡️</div>
+                        <h3 class="card-title">Fertilidad Futura</h3>
+                    </div>
+                    <p>Evidencia científica sólida demuestra:</p>
+                    <ul style="margin: 15px 0; margin-left: 20px;">
+                        <li>No afecta la fertilidad futura</li>
+                        <li>No aumenta riesgo de aborto espontáneo posterior</li>
+                        <li>No causa parto prematuro en embarazos futuros</li>
+                        <li>La fertilidad retorna rápidamente</li>
+                    </ul>
+                    <div style="background: #d1ecf1; padding: 15px; border-radius: 5px;">
+                        <p style="color: #0c5460; font-weight: bold;">Los procedimientos modernos están diseñados para preservar la salud reproductiva.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Métodos Médicos -->
+        <section id="metodos" class="section scroll-target">
+            <h2>6. Métodos Médicos del Aborto Inducido</h2>
+            
+            <div class="card">
+                <h3>Aborto con Medicamentos (Píldoras Abortivas)</h3>
+                <p>Método no invasivo que utiliza medicamentos para interrumpir el embarazo. Efectivo hasta 10-11 semanas de gestación.</p>
+                
+                <div class="grid grid-2" style="margin-top: 20px;">
+                    <div class="highlight">
+                        <h4>Protocolo estándar:</h4>
+                        <ol>
+                            <li>Mifepristona (bloquea progesterona)</li>
+                            <li>Misoprostol 24-48h después (induce contracciones)</li>
+                            <li>Seguimiento médico (7-14 días después)</li>
+                        </ol>
+                    </div>
+                    <div class="highlight">
+                        <h4>Características:</h4>
+                        <ul>
+                            <li>Efectividad: 95-98%</li>
+                            <li>Privado, puede hacerse en casa</li>
+                            <li>Sangrado y cólicos (similares a menstruación fuerte)</li>
+                            <li>Aprobado por FDA y OMS</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Aborto Quirúrgico</h3>
+                <p>Procedimientos ambulatorios realizados en clínicas u hospitales por personal médico capacitado.</p>
+                
+                <div style="margin-top: 20px;">
+                    <div style="border: 1px solid #ddd; padding: 20px; border-radius: 10px; margin: 15px 0;">
+                        <h4>Aspiración por Vacío (hasta 14-16 semanas)</h4>
+                        <ul>
+                            <li>Procedimiento de 5-10 minutos</li>
+                            <li>Anestesia local o sedación</li>
+                            <li>Efectividad: &gt;99%</li>
+                            <li>Recuperación rápida</li>
+                        </ul>
+                    </div>
+                    <div style="border: 1px solid #ddd; padding: 20px; border-radius: 10px;">
+                        <h4>Dilatación y Evacuación (después de 14 semanas)</h4>
+                        <ul>
+                            <li>Requiere más preparación</li>
+                            <li>Sedación o anestesia general</li>
+                            <li>Procedimiento más complejo</li>
+                            <li>Muy seguro cuando es legal</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Derechos Reproductivos -->
+        <section id="derechos" class="section scroll-target">
+            <h2>7. Derechos Reproductivos como Derechos Humanos</h2>
+            
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-icon">📖</div>
+                    <h3 class="card-title">Marco de Derechos Humanos</h3>
+                </div>
+                
+                <p style="font-size: 1.1rem; margin-bottom: 30px;">Los derechos reproductivos son derechos humanos fundamentales reconocidos por el derecho internacional y están relacionados con múltiples derechos establecidos:</p>
+                
+                <div class="grid grid-2">
+                    <div style="border: 2px solid #667eea; padding: 20px; border-radius: 10px;">
+                        <h4>1️⃣ Derecho a la vida</h4>
+                        <p>Protección contra muertes maternas prevenibles. El aborto inseguro es una de las principales causas de mortalidad materna evitable.</p>
+                    </div>
+
+                    <div style="border: 2px solid #667eea; padding: 20px; border-radius: 10px;">
+                        <h4>2️⃣ Derecho a la salud</h4>
+                        <p>Acceso a servicios de salud sexual y reproductiva de calidad, sin discriminación. Incluye atención integral del aborto seguro.</p>
+                    </div>
+
+                    <div style="border: 2px solid #667eea; padding: 20px; border-radius: 10px;">
+                        <h4>3️⃣ Autonomía y dignidad</h4>
+                        <p>Derecho a tomar decisiones libres e informadas sobre el propio cuerpo, sin coerción, violencia ni discriminación.</p>
+                    </div>
+
+                    <div style="border: 2px solid #667eea; padding: 20px; border-radius: 10px;">
+                        <h4>4️⃣ No discriminación</h4>
+                        <p>Acceso equitativo sin importar edad, estado civil, raza, orientación sexual, situación económica u otras características.</p>
+                    </div>
+
+                    <div style="border: 2px solid #667eea; padding: 20px; border-radius: 10px;">
+                        <h4>5️⃣ Información y educación</h4>
+                        <p>Derecho a información completa, precisa, basada en evidencia sobre salud sexual y reproductiva.</p>
+                    </div>
+
+                    <div style="border: 2px solid #667eea; padding: 20px; border-radius: 10px;">
+                        <h4>6️⃣ Privacidad y confidencialidad</h4>
+                        <p>Protección de la información personal y decisiones reproductivas. Atención médica confidencial.</p>
+                    </div>
+                </div>
+
+                <div class="important-note">
+                    <h4>Posición de Organismos Internacionales:</h4>
+                    <ul>
+                        <li><strong>OMS:</strong> "El acceso al aborto seguro es un componente esencial de la atención de salud"</li>
+                        <li><strong>ONU:</strong> Las restricciones severas violan los derechos humanos de mujeres y niñas</li>
+                        <li><strong>Comité CEDAW:</strong> La negación del aborto constituye discriminación de género</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Prevención y Educación -->
+        <section id="prevencion" class="section scroll-target">
+            <h2>8. Prevención y Educación Sexual Integral</h2>
+            <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Educación sexual integral" class="section-image">
+            
+            <div class="grid grid-2">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-icon">🎓</div>
+                        <h3 class="card-title">Educación Sexual Integral (ESI)</h3>
+                    </div>
+                    <p>La ESI es fundamental para reducir embarazos no planificados y, consecuentemente, la necesidad de abortos.</p>
+                    
+                    <div class="highlight">
+                        <h4>Componentes clave:</h4>
+                        <ul>
+                            <li>Información sobre anatomía y reproducción</li>
+                            <li>Métodos anticonceptivos</li>
+                            <li>Prevención de ITS</li>
+                            <li>Consentimiento y relaciones sanas</li>
+                            <li>Derechos sexuales y reproductivos</li>
+                            <li>Perspectiva de género e igualdad</li>
+                        </ul>
+                    </div>
+                    
+                    <div style="background: #d4edda; padding: 15px; border-radius: 5px;">
+                        <p style="color: #155724; font-weight: bold;">Evidencia:</p>
+                        <p style="color: #155724; font-size: 0.9rem;">La ESI reduce embarazos adolescentes hasta un 50% y no aumenta la actividad sexual (contrario a mitos comunes).</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-icon">🛡️</div>
+                        <h3 class="card-title">Anticoncepción y Planificación Familiar</h3>
+                    </div>
+                    <p>El acceso a métodos anticonceptivos modernos es la estrategia más efectiva para prevenir embarazos no planificados.</p>
+                    
+                    <div class="highlight">
+                        <h4>Métodos disponibles:</h4>
+                        <ul>
+                            <li>Hormonales (píldora, inyecciones, parches)</li>
+                            <li>DIU (cobre o hormonal)</li>
+                            <li>Implantes subdérmicos</li>
+                            <li>Preservativos (único que previene ITS)</li>
+                            <li>Métodos de barrera (diafragma, etc.)</li>
+                            <li>Métodos permanentes (esterilización)</li>
+                        </ul>
+                    </div>
+                    
+                    <div style="background: #d1ecf1; padding: 15px; border-radius: 5px;">
+                        <p style="color: #0c5460; font-weight: bold;">Impacto global:</p>
+                        <p style="color: #0c5460; font-size: 0.9rem;">Se estima que el uso de anticonceptivos modernos previene 308 millones de embarazos no planificados anualmente.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Impacto Social y Económico -->
+        <section id="impacto" class="section scroll-target">
+            <h2>9. Impacto Social y Económico</h2>
+            
+            <div class="grid grid-3">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-icon">👥</div>
+                        <h3 class="card-title">Salud Pública</h3>
+                    </div>
+                    <p>Las restricciones legales no reducen significativamente las tasas de aborto, pero sí aumentan drásticamente su peligrosidad.</p>
+                    <div style="background: #f8d7da; padding: 15px; border-radius: 5px; margin-top: 15px;">
+                        <p style="color: #721c24; font-weight: bold;">Dato crítico:</p>
+                        <p style="color: #721c24; font-size: 0.9rem;">En países con leyes restrictivas, el 45% de los abortos son inseguros, vs. 10% en países con acceso legal.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-icon">📈</div>
+                        <h3 class="card-title">Impacto Económico</h3>
+                    </div>
+                    <p>Las mujeres con acceso al aborto seguro tienen mejores resultados económicos:</p>
+                    <ul style="margin: 15px 0; margin-left: 20px; font-size: 0.9rem;">
+                        <li>Mayor probabilidad de completar estudios</li>
+                        <li>Mayores ingresos a largo plazo</li>
+                        <li>Mejor situación económica familiar</li>
+                        <li>Menor dependencia de asistencia social</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-icon">🌍</div>
+                        <h3 class="card-title">Justicia Social</h3>
+                    </div>
+                    <p>Las leyes restrictivas afectan desproporcionalmente a:</p>
+                    <ul style="margin: 15px 0; margin-left: 20px; font-size: 0.9rem;">
+                        <li>Personas de bajos recursos</li>
+                        <li>Poblaciones rurales</li>
+                        <li>Minorías étnicas y raciales</li>
+                        <li>Adolescentes</li>
+                        <li>Víctimas de violencia sexual</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mitos vs Realidad -->
+        <section id="mitos" class="section scroll-target">
+            <h2>10. Mitos vs. Realidad Científica</h2>
+            
+            <div class="myth-reality">
+                <div class="myth">
+                    <h4>❌ MITO</h4>
+                    <p>"El aborto causa infertilidad"</p>
+                </div>
+                <div class="reality">
+                    <h4>✅ REALIDAD</h4>
+                    <p>El aborto seguro NO afecta la fertilidad futura. Estudios demuestran que no hay diferencias en fertilidad entre quienes han tenido abortos y quienes no.</p>
+                </div>
+            </div>
+
+            <div class="myth-reality">
+                <div class="myth">
+                    <h4>❌ MITO</h4>
+                    <p>"El aborto causa síndrome post-aborto"</p>
+                </div>
+                <div class="reality">
+                    <h4>✅ REALIDAD</h4>
+                    <p>Este "síndrome" no existe en la literatura médica. La American Psychological Association concluyó que el aborto legal no causa problemas mentales por sí mismo.</p>
+                </div>
+            </div>
+
+            <div class="myth-reality">
+                <div class="myth">
+                    <h4>❌ MITO</h4>
+                    <p>"Prohibir el aborto reduce su incidencia"</p>
+                </div>
+                <div class="reality">
+                    <h4>✅ REALIDAD</h4>
+                    <p>Las tasas de aborto son similares en países con leyes restrictivas y permisivas. La diferencia está en la seguridad: donde es ilegal, es más peligroso.</p>
+                </div>
+            </div>
+
+            <div class="myth-reality">
+                <div class="myth">
+                    <h4>❌ MITO</h4>
+                    <p>"El aborto aumenta riesgo de cáncer de mama"</p>
+                </div>
+                <div class="reality">
+                    <h4>✅ REALIDAD</h4>
+                    <p>Múltiples estudios y organizaciones médicas (NCI, ACOG, WHO) confirman que NO existe relación causal entre aborto y cáncer de mama.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Perspectivas Éticas -->
+        <section id="etica" class="section scroll-target">
+            <h2>11. Perspectivas Éticas y Filosóficas</h2>
+            
+            <div class="card">
+                <p style="font-size: 1.1rem; margin-bottom: 30px;">El aborto involucra complejas cuestiones éticas que han sido debatidas desde perspectivas filosóficas, religiosas y bioéticas diversas:</p>
+
+                <div class="grid grid-2">
+                    <div style="border: 2px solid #667eea; padding: 20px; border-radius: 10px;">
+                        <h4>Enfoque de Autonomía</h4>
+                        <p>Enfatiza el derecho de las personas a tomar decisiones sobre su propio cuerpo. Argumenta que nadie más puede obligar a una persona a continuar un embarazo contra su voluntad.</p>
+                    </div>
+
+                    <div style="border: 2px solid #667eea; padding: 20px; border-radius: 10px;">
+                        <h4>Enfoque de Derechos Humanos</h4>
+                        <p>Considera los derechos reproductivos como derechos humanos fundamentales. Analiza el equilibrio entre diferentes derechos y el rol del Estado.</p>
+                    </div>
+
+                    <div style="border: 2px solid #667eea; padding: 20px; border-radius: 10px;">
+                        <h4>Bioética Principialista</h4>
+                        <p>Aplica principios de autonomía, beneficencia, no maleficencia y justicia. Reconoce la complejidad moral y busca equilibrio entre principios.</p>
+                    </div>
+
+                    <div style="border: 2px solid #667eea; padding: 20px; border-radius: 10px;">
+                        <h4>Ética del Cuidado</h4>
+                        <p>Enfatiza las relaciones, el contexto y las circunstancias particulares. Considera las responsabilidades existentes y el bienestar de todos los involucrados.</p>
+                    </div>
+                </div>
+
+                <div class="important-note">
+                    <h4>Nota Importante:</h4>
+                    <p>En sociedades plurales, existen múltiples visiones éticas y religiosas legítimas. El enfoque de salud pública y derechos humanos reconoce esta diversidad mientras protege los derechos fundamentales y la salud de todas las personas, independientemente de sus creencias personales.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Datos Estadísticos -->
+        <section id="datos" class="section scroll-target">
+            <h2>12. Datos Estadísticos Globales</h2>
+            
+            <div class="grid grid-4">
+                <div class="stat-card">
+                    <div class="stat-number">73M</div>
+                    <div class="stat-text">Abortos inducidos anualmente en el mundo (OMS, 2019)</div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-number">45%</div>
+                    <div class="stat-text">De los abortos globales son inseguros (principalmente en países restrictivos)</div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-number">99%+</div>
+                    <div class="stat-text">Tasa de seguridad en primer trimestre (en países con acceso legal)</div>
+                </div>
+                
+                <div class="stat-card" style="background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);">
+                    <div class="stat-number">13%</div>
+                    <div class="stat-text">De muertes maternas por abortos inseguros (totalmente prevenible)</div>
+                </div>
+
+                <div class="stat-card" style="background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);">
+                    <div class="stat-number">25M</div>
+                    <div class="stat-text">Abortos inseguros anualmente (97% en países en desarrollo)</div>
+                </div>
+
+                <div class="stat-card" style="background: linear-gradient(135deg, #27ae60 0%, #229954 100%);">
+                    <div class="stat-number">61%</div>
+                    <div class="stat-text">De la población vive donde es legal (bajo diferentes causales)</div>
+                </div>
+
+                <div class="stat-card" style="background: linear-gradient(135deg, #9b59b6 0%, #8e44ad 100%);">
+                    <div class="stat-number">218M</div>
+                    <div class="stat-text">Mujeres necesitan anticoncepción y no tienen acceso (2020)</div>
+                </div>
+
+                <div class="stat-card" style="background: linear-gradient(135deg, #f39c12 0%, #e67e22 100%);">
+                    <div class="stat-number">$553M</div>
+                    <div class="stat-text">Costo anual de abortos inseguros para sistemas de salud</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recursos y Ayuda -->
+        <section class="section">
+            <div class="card" style="border: 2px solid #667eea;">
+                <div class="card-header">
+                    <div class="card-icon">📞</div>
+                    <h3 class="card-title">Recursos y Ayuda</h3>
+                </div>
+                
+                <p style="font-size: 1.1rem; margin-bottom: 30px;">Si necesitas información, asesoramiento o ayuda, existen múltiples recursos disponibles:</p>
+                
+                <div class="grid grid-2">
+                    <div style="background: #f8f9fa; padding: 20px; border-radius: 10px;">
+                        <h4>Servicios de Salud</h4>
+                        <p>Consulta con profesionales médicos calificados en clínicas de salud sexual y reproductiva, hospitales públicos y centros de salud autorizados.</p>
+                    </div>
+                    <div style="background: #f8f9fa; padding: 20px; border-radius: 10px;">
+                        <h4>Organizaciones</h4>
+                        <p>ONGs especializadas en derechos reproductivos ofrecen información basada en evidencia, apoyo emocional y orientación legal confidencial.</p>
+                    </div>
+                    <div style="background: #f8f9fa; padding: 20px; border-radius: 10px;">
+                        <h4>Líneas de Ayuda</h4>
+                        <p>Líneas telefónicas y servicios de chat en línea que proporcionan orientación confidencial, sin juicios, disponibles en muchos países.</p>
+                    </div>
+                    <div style="background: #f8f9fa; padding: 20px; border-radius: 10px;">
+                        <h4>Apoyo Psicológico</h4>
+                        <p>Profesionales de salud mental especializados en salud reproductiva pueden proporcionar apoyo antes, durante y después del proceso.</p>
+                    </div>
+                </div>
+                
+                <div class="important-note">
+                    <h4>⚠️ Aviso Importante</h4>
+                    <p>Esta presentación tiene fines educativos y académicos. Para situaciones específicas, siempre consulta con profesionales de la salud calificados y verifica la legislación vigente en tu país o región. La información se basa en evidencia científica actualizada y estándares internacionales de derechos humanos.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Referencias Bibliográficas -->
+        <section class="section">
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-icon">📚</div>
+                    <h3 class="card-title">Referencias Bibliográficas</h3>
+                </div>
+                
+                <div style="background: #f8f9fa; padding: 20px; border-radius: 10px; margin-bottom: 20px;">
+                    <h4 style="color: #667eea; margin-bottom: 10px;">👩‍🎓 Autora de la Presentación</h4>
+                    <p style="font-weight: 600; margin-bottom: 5px;">Yeidis Marcela Yotagri Legarda</p>
+                    <p style="font-size: 0.9rem; color: #666;">Estudiante universitaria</p>
+                </div>
+                
+                <ol style="line-height: 1.8; margin-left: 20px;">
+                    <li>World Health Organization (WHO). (2022). Abortion care guideline. Geneva: WHO.</li>
+                    <li>Guttmacher Institute. (2022). Induced Abortion Worldwide: Global Incidence and Trends.</li>
+                    <li>APA Task Force on Mental Health and Abortion. (2008). Report of the Task Force on Mental Health and Abortion. Washington, DC: American Psychological Association.</li>
+                    <li>UNFPA. (2019). Programme of Action of the International Conference on Population and Development.</li>
+                    <li>Committee on the Elimination of Discrimination Against Women (CEDAW). General Recommendations.</li>
+                    <li>Ganatra, B., et al. (2017). Global, regional, and subregional classification of abortions by safety. The Lancet, 390(10110), 2372-2381.</li>
+                    <li>Singh, S., et al. (2018). Abortion Worldwide 2017: Uneven Progress and Unequal Access. New York: Guttmacher Institute.</li>
+                    <li>Raymond, E.G., & Grimes, D.A. (2012). The comparative safety of legal induced abortion and childbirth in the United States. Obstetrics & Gynecology, 119(2), 215-219.</li>
+                    <li>Foster, D.G., et al. (2020). Socioeconomic Outcomes of Women Who Receive and Women Who Are Denied Wanted Abortions. American Journal of Public Health, 108(3), 407-413.</li>
+                    <li>Center for Reproductive Rights. (2021). The World's Abortion Laws. New York: CRR.</li>
+                </ol>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p style="font-weight: 600; margin-bottom: 15px;">Presentación Académica sobre Aborto: Análisis Integral</p>
+            <p style="font-weight: 500; margin-bottom: 15px; color: #e8e8e8;">
+                📝 Presentado por: Yeidis Marcela Yotagri Legarda
+            </p>
+            <p style="margin-bottom: 10px;">Información basada en evidencia científica, investigaciones revisadas por pares, y estándares internacionales de derechos humanos.</p>
+            <p style="font-size: 0.9rem; opacity: 0.8;">Fuentes principales: Organización Mundial de la Salud (OMS), UNFPA, Guttmacher Institute, American Psychological Association, Comité CEDAW, Center for Reproductive Rights.</p>
+            <p style="font-size: 0.8rem; margin-top: 15px; opacity: 0.7;">
+                🌐 Repositorio: <a href="https://github.com/Am0103/aborto-" style="color: #e8e8e8; text-decoration: underline;">github.com/Am0103/aborto-</a>
+            </p>
+            <div style="margin-top: 20px;">
+                <span style="background: rgba(255,255,255,0.2); padding: 8px 16px; border-radius: 20px; font-size: 0.9rem;">Actualizado 2025</span>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add fade-in animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Apply animation to sections
+        document.querySelectorAll('.section, .card').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(20px)';
+            el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(el);
+        });
+
+        // Show hero immediately
+        document.querySelector('.hero').style.opacity = '1';
+        document.querySelector('.hero').style.transform = 'translateY(0)';
+    </script>
+</body>
+</html>
